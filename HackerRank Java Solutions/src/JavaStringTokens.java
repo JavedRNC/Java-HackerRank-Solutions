@@ -2,15 +2,7 @@ import java.util.Scanner;
 
 class JavaStringTokens
 {
-//	 private static String removeLeadingNonLetters(String str) {
-//	        int i;
-//	        for (i = 0; i < str.length(); i++) {
-//	            if (Character.isLetter(str.charAt(i))) {
-//	                break;
-//	            }
-//	        }
-//	        return str.substring(i);
-//	    }
+
 	
 	 public static void main(String[] args) {
 	       
@@ -22,10 +14,7 @@ class JavaStringTokens
 	            System.out.println(0);
 	            return;
 	        }
-	       
-	        
-	       
-	       // s = removeLeadingNonLetters(s); 
+	      
 	        String[] arr = s.split("[ !,?._'@]+");
 	        System.out.println(arr.length);
 	        for(String item:arr)
